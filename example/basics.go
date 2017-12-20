@@ -1,8 +1,9 @@
 package main
 
 import (
-	".."
 	"os"
+
+	"github.com/tabjy/yagl"
 )
 
 func main() {

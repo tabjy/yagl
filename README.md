@@ -37,7 +37,11 @@ A [well-explained example](example/basics.go) is also available.
 
 ## Documentation
 
-The codes come together with inline documentation.
+The codes come together with inline documentation. If you like, a more human-friendly formatted documentation can be generated using following services.
+
+- [![GoDoc](https://godoc.org/github.com/Tabjy/yagl?status.svg)](https://godoc.org/github.com/Tabjy/yagl)
+- [![Go Walker](http://gowalker.org/api/v1/badge)](https://gowalker.org/github.com/Tabjy/yagl)
+- Use the [source](log.go), Luke!
 
 ### Logging Levels
 6 logging level are provided:
