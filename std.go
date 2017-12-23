@@ -5,7 +5,8 @@ import "os"
 var std = New(FlgStdFlags, LvlInfo, os.Stderr)
 
 // StdLogger return a standard logger equivalent to
-// 		New(FlgStdFlags, LvlInfo, os.Stdout)
+// 		New(FlgStdFlags, LvlInfo, os.Stderr)
+// Note that standard loggers writes to standard error instead of standard out.
 func StdLogger() Logger {
 	return std
 }

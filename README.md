@@ -56,6 +56,7 @@ The codes come together with inline documentation. If you like, a more human-fri
 ## TODOs
 
 - [ ] color code different logging levels.
+- [ ] different output for different logging levels.
 
 ## License
 

@@ -46,7 +46,7 @@ func main() {
 		logger.Infof("Panic recovered: \n%v", r)
 
 		// yagl.Fatal calls os.Exit(1)
-		yagl.Fatal("Fatal is the highest logger level, catastrophic failure, the entire process would exit with error code 1 by calling this method.")
+		logger.Fatal("Fatal is the highest logger level, catastrophic failure, the entire process would exit with error code 1 by calling this method.")
 	}()
 
 	// This cause a panic to be yielded.
