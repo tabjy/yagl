@@ -2,7 +2,7 @@ package yagl
 
 import "os"
 
-var std = New(FlgStdFlags, LvlInfo, os.Stdout)
+var std = New(FlgStdFlags, LvlInfo, os.Stderr)
 
 // StdLogger return a standard logger equivalent to
 // 		New(FlgStdFlags, LvlInfo, os.Stdout)
