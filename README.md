@@ -1,10 +1,10 @@
 # YAGL: Yet Another Golang Logger
 
-Package YAGL, or, Yet Another Golang Logger, extends the golang built-in log package with level control, and multiple output io.Writer support.
+Package YAGL, or, Yet Another Golang Logger, extends the golang built-in log package with level control, and multiple output `io.Writer` support.
 
 ## Getting Started
 
-Please note that YAGL is NOT a drop-in replacement for the Golang built-in log package as log.Logger isn't exported as a interface (but a struct), and many symbols and behaviours might differ.
+YAGL is NOT a drop-in replacement for the Golang built-in log package as `log.Logger` isn't exported as an interface (but a struct), and many symbols and behaviours might differ.
 
 ### Installing
 
@@ -15,7 +15,7 @@ $ go get github.com/tabjy/yagl
 
 ### Importing
 
-Importing YAGL is no different from importing other packages:
+Importing YAGL is same as importing other packages:
 ```go
 import "github.com/tabjy/yagl"
 ```
